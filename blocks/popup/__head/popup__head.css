@@ -1,0 +1,22 @@
+.popup__head {
+  position: absolute;
+  top: calc(50% - 165px);
+  bottom: 0;
+  left: calc(50% - 215px);
+  right: 0;
+  box-sizing: border-box;
+  max-width: 430px;
+  max-height: 330px;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  display: flex;
+}
+
+@media  screen and (max-width: 624px) {
+  .popup__head {
+    max-width: 282px;
+    max-height: 322px;
+    top: calc(50% - 161px);
+    left: calc(50% - 141px);
+  }
+}

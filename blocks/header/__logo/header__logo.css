@@ -1,0 +1,17 @@
+.header__logo {
+  background-image: url(../../../images/Vector.svg);
+  min-width: 142px;
+  max-height: 33px;
+}
+
+.header__logo:hover {
+  background: #000000;
+} 
+
+@media  screen and (max-width: 619px) {
+  .header {
+    min-width: 103px;
+    max-height: 24px;
+    padding-left: 27px;
+  }
+}

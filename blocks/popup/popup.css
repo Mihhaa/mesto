@@ -1,0 +1,16 @@
+.popup {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  /*top: calc(50% - 165px);
+  bottom: 0;
+  left: calc(50% - 215px);
+  right: 50%;*/
+  /*background: #FFFFFF;*/
+ /* width: 430px;
+  height: 330px;*/
+ /* border-radius: 10px;*/
+  visibility: hidden;
+}

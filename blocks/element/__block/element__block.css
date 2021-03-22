@@ -1,0 +1,9 @@
+.element__block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 21px;
+  margin-right: 15px;
+  margin-top: 25px;
+}

@@ -1,0 +1,15 @@
+.element__like {
+  background-image: url(../../../images/like.png);
+  width: 22px;
+  margin: 0;
+  height: 19px;
+}
+
+.element__like:hover {
+  opacity: 0.5;
+}
+
+.element__like:active {
+  background-image: url(../../../images/activelike.png);
+  background-color: black;
+}
