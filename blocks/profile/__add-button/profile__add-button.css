@@ -5,7 +5,7 @@
   border: 2px solid #FFFFFF;
   background: #000000;
   border-radius: 2px;
-  margin-top: 12px;
+  margin-top: 35px;
   margin-bottom: 35px;
   margin-left: auto;
 }
@@ -16,18 +16,17 @@
 
 @media  screen and (max-width: 949px) {
   .profile__add-button  {
-    width: 200px;
-    margin-top: 110px;
-    margin-left: -290px;
+    width: 130px;
+    margin-top: auto;
+    margin-bottom: auto;
   }
 }
 
 @media  screen and (max-width: 624px) {
   .profile__add-button {
     width: 282px;
-    height: 50px;
     margin-bottom: 0;
-    margin-top: 35px;
+    margin-top: 36px;
     margin-left: auto;
   }
 }

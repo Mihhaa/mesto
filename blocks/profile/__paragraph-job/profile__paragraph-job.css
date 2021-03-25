@@ -10,6 +10,13 @@
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
+  max-width: 336px;
+}
+
+@media  screen and (max-width: 949px) {
+  .profile__paragraph-job {
+    width: 205px;
+  }
 }
 
 @media  screen and (max-width: 624px) {
@@ -18,7 +25,7 @@
     line-height: 17px;
     text-align: center;
     margin-right: auto;
-    width: 282px;
+    width: 223px;
     align-items: flex-start;
   }
 }

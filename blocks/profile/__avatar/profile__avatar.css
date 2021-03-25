@@ -1,7 +1,7 @@
 .profile__avatar {
   border-radius: 50%;
-  width: 169px;
-  height: 128px;
+  width: 120px;
+  height: 120px;
 }
 
 @media  screen and (max-width: 949px) {
@@ -13,7 +13,7 @@
 @media  screen and (max-width: 624px) {
   .profile__avatar  {
     margin-left: 0;
-    width: 170px;
-    height: 127px;
+    width: 120px;
+    height: 120px;
   }
 }

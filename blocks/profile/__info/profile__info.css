@@ -1,19 +1,24 @@
 .profile__info {
   margin-left: 30px;
   width: 336px;
-  height: 73px;
+  display: grid;
+  grid-template-columns: 294px 42px;
+  row-gap: 16px;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 @media  screen and (max-width: 949px) {
   .profile__info {
-    width: 282px;
+    grid-template-columns: 189px 35px;
+    row-gap: 14px;
+    width: 223px;
   }
 }
 
 @media  screen and (max-width: 624px) {
   .profile__info {
-    width: 282px;
-    height: 54px;
+    grid-template-columns: 189px 35px;
     margin-top: 22px;
     margin-right: auto;
     margin-left: auto;

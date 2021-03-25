@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./pages/index.css">
-    <title>Mesto</title>
+    <title>Место</title>
 </head>
 <body class="root">
 
@@ -18,56 +18,54 @@
         <section class="profile">
           <img src="images/avatar.png" alt="avatar" class="profile__avatar">
           <div class="profile__info">
-            <button class="profile__edit-button profile__edit-button_active" id="openPopup_button">
-              <img src="images/redact.png" alt="edit">
-            </button>
-            <p class="profile__paragraph-nam">Жак-Ив Кусто</p>
+            <h3 class="profile__paragraph-nam">Жак-Ив Кусто</h3>
+            <button class="profile__edit-button" type="submit"></button>          
             <p class="profile__paragraph-job">Исследователь океана</p>
           </div>
-          <button class="profile__add-button"><div class="profile__plus"></div></button>
+          <button class="profile__add-button" type="submit"><img src="./images/plus.svg" alt="добавить фото" class="profile__plus"></div></button>
         </section>
 
         <section class="elements">
           <article class="element">
-            <img src="images/kirill-pershin-1088404-unsplash.jpg" alt="фото" class="element__card">
+            <img src="./images/kirill-pershin-1088404-unsplash.jpg" alt="фото" class="element__card">
             <div class="element__block">
-              <p class="element__text">Карачаевск</p>
-              <div class="element__like"></div>
+              <h4 class="element__text">Карачаевск</h4>
+              <button class="element__like" type="submit"></button>
             </div>
           </article>
           <article class="element">
-            <img src="images/kirill-pershin-1404681-unsplash.jpg" alt="фото" class="element__card">
+            <img src="./images/kirill-pershin-1404681-unsplash.jpg" alt="фото" class="element__card">
             <div class="element__block">
-              <p class="element__text">Гора Эльбрус</p>
-              <div class="element__like"></div>
+              <h4 class="element__text">Гора Эльбрус</h4>
+              <button class="element__like" type="submit"></button>
             </div>
           </article>
           <article class="element">
-            <img src="images/kirill-pershin-1556355-unsplash.jpg" alt="фото" class="element__card">
+            <img src="./images/kirill-pershin-1556355-unsplash.jpg" alt="фото" class="element__card">
             <div class="element__block">
-              <p class="element__text">Домбай</p>
-              <div class="element__like"></div>
+              <h4 class="element__text">Домбай</h4>
+              <button class="element__like" type="submit"></button>
             </div>
           </article>
           <article class="element">
-            <img src="images/kirill-pershin-1404681-unsplash.jpg" alt="фото" class="element__card">
+            <img src="./images/kirill-pershin-1404681-unsplash.jpg" alt="фото" class="element__card">
             <div class="element__block">
-              <p class="element__text">Гора Эльбрус</p>
-              <div class="element__like"></div>
+              <h4 class="element__text">Гора Эльбрус</h4>
+              <button class="element__like" type="submit"></button>
             </div>
           </article>
           <article class="element">
-            <img src="images/kirill-pershin-1556355-unsplash.jpg" alt="фото" class="element__card">
+            <img src="./images/kirill-pershin-1556355-unsplash.jpg" alt="фото" class="element__card">
             <div class="element__block">
-              <p class="element__text">Домбай</p>
-              <div class="element__like"></div>
+              <h4 class="element__text">Домбай</h4>
+              <button class="element__like" type="submit"></button>
             </div>
           </article>
           <article class="element">
-            <img src="images/kirill-pershin-1088404-unsplash.jpg" alt="фото" class="element__card">
+            <img src="./images/kirill-pershin-1088404-unsplash.jpg" alt="фото" class="element__card">
             <div class="element__block">
-              <p class="element__text">Карачаево-Черкесия</p>
-              <div class="element__like"></div>
+              <h4 class="element__text">Карачаево-Черкесия</h4>
+              <button class="element__like" type="submit"></button>
             </div>
           </article>
         </section>
@@ -79,13 +77,13 @@
     </footer>
 
   <div class="popup">
-    <div class="popup__overlay"></div>
+    <div class="popup_overlay"></div>
     <div class="popup__head">
-      <div class="popup__close">+</div>
-      <p class="popup__text">Редактировать профиль</p>
-      <form class="form">
-        <input type="text" class="form__input-name" placeholder="Жак-Ив Кусто"><div class="form__line"></div>
-        <input type="text" class="form__input-job" placeholder="Исследователь океана"><div class="form__line"></div>
+      <button class="popup__close" type="submit">+</button>
+      <h2 class="popup__text">Редактировать профиль</h2>
+      <form class="form" name="formwindow">
+        <input type="text" class="popup__input popup__input_name_text" name="nameavatar" placeholder="Жак-Ив Кусто">
+        <input type="text" class="popup__input popup__input_job_text" name="jobavatar" placeholder="Исследователь океана">
         <button type="submit" class="form__btn-save">Сохранить</button>
       </form>
     </div>

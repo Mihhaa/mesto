@@ -1,8 +1,11 @@
 .element__like {
-  background-image: url(../../../images/like.png);
+  background-image: url(../../../images/like.svg);
   width: 22px;
   margin: 0;
   height: 19px;
+  padding: 0;
+  border: 0;
+  cursor: pointer;
 }
 
 .element__like:hover {
@@ -10,6 +13,5 @@
 }
 
 .element__like:active {
-  background-image: url(../../../images/activelike.png);
-  background-color: black;
+  background-image: url(../../../images/activelike.svg);
 }
