@@ -1,7 +1,7 @@
 .popup__close {
   color: #FFFFFF; 
-  transform: rotate(-45deg);
   font-size: 60px;
+  transform: rotate(-45deg);
   font-weight: bold;
   margin-top: -40px;
   margin-left: 430px;
