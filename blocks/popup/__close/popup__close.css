@@ -1,11 +1,11 @@
 .popup__close {
   color: #FFFFFF; 
-  transform: rotate(-45deg); 
-  font-size: 60px; 
-  font-weight: bold; 
-  margin-top: -40px; 
-  margin-left: 430px; 
-  cursor: pointer; 
+  transform: rotate(-45deg);
+  font-size: 60px;
+  font-weight: bold;
+  margin-top: -40px;
+  margin-left: 430px;
+  cursor: pointer;
   padding: 0;
   border: 0;
 }
@@ -16,8 +16,8 @@
 
 @media  screen and (max-width: 624px) {
   .popup__close {
-    font-size: 38px; 
-    margin-left: 260px; 
-    margin-top: -43px; 
+    font-size: 38px;
+    margin-left: 260px;
+    margin-top: -43px;
   }
 }
