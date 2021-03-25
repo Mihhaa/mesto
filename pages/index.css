@@ -19,7 +19,7 @@
 @import url(../blocks/element/__like/element__like.css);
 @import url(../blocks/popup/popup.css);
 @import url(../blocks/popup/_visible/popup_visible.css);
-@import url(../blocks/popup/_overlay/popup_overlay.css);
+@import url(../blocks/popup/__overlay/popup__overlay.css);
 @import url(../blocks/popup/__close/popup__close.css);
 @import url(../blocks/popup/__head/popup__head.css);
 @import url(../blocks/popup/__text/popup__text.css);
