@@ -9,8 +9,8 @@ const popupOverlay = document.querySelector('.popup__overlay');
 // Находим форму в DOM
 let formElement = document.querySelector('.form');// Воспользуйтесь методом querySelector()
 // Находим поля формы в DOM
-let nameInput = formElement.querySelector('.popup__input_name_text');// Воспользуйтесь инструментом .querySelector()
-let jobInput = formElement.querySelector('.popup__input_job_text');// Воспользуйтесь инструментом .querySelector()
+let nameInput = formElement.querySelector('.popup__input_text_name');// Воспользуйтесь инструментом .querySelector()
+let jobInput = formElement.querySelector('.popup__input_text_job');// Воспользуйтесь инструментом .querySelector()
 // Выберите элементы, куда должны быть вставлены значения полей
 let paragraphNam = document.querySelector('.profile__paragraph-nam');
 let paragraphJob = document.querySelector('.profile__paragraph-job');
@@ -19,15 +19,13 @@ let paragraphJob = document.querySelector('.profile__paragraph-job');
 //функция добавления класса открытия popup
 function openPopup() {
   popup.classList.add('popup_visible');
-
-  let avatarNam = paragraphNam.value;
-  let avatarJob = paragraphJob.value;
-
-  avatarNam = nameInput.textContent;
-  avatarJob = jobInput.textContent;
+  //получить значения textcontent
+  let avatarNam = paragraphNam.textContent;
+  let avatarJob = paragraphJob.textContent;
+  //вставить значения в input
+  nameInput.value = avatarNam;
+  jobInput.value = avatarJob;
 }
-
-formElement.addEventListener('submit', openPopup);
 
 //функция удаления класса для закрытия popup
 function closePopup() {
